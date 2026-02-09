@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mahesh T - Student Portfolio | Computer Science Engineering</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Anime.js for smooth, lightweight animations -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Mahesh T</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Student Portfolio</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Mahesh T</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Computer Science Engineering Student | AI & Machine Learning Enthusiast<br>
+                    SRM Institute of Science and Technology, Tiruchirapalli
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-box">
+                        <span class="stat-number">8.55</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">2026</span>
+                        <span class="stat-label">Graduation</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">AI/ML</span>
+                        <span class="stat-label">Specialization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science Engineering student with a specialization in Artificial Intelligence and Machine Learning. Currently pursuing my Bachelor's degree at SRM Institute of Science and Technology, Tiruchirapalli, with a CGPA of 8.55.</p>
+                    <p>I have a strong foundation in programming and enjoy working on projects that combine computer vision, web development, and database management. My goal is to leverage AI/ML technologies to solve real-world problems.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>8.55</h3>
+                        <p>CGPA</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>5</h3>
+                        <p>Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology</h3>
+                        <h4>Computer Science And Engineering with Specialization in AI & ML</h4>
+                        <p class="institution">SRM Institute of Science and Technology, Tiruchirapalli</p>
+                        <p class="duration">June 2022 - May 2026</p>
+                        <p class="grade">CGPA: 8.55</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary</h3>
+                        <h4>Computer Science HSLC</h4>
+                        <p class="institution">Chellammal Vidyalaya CBSE, Trichy</p>
+                        <p class="duration">2021 - 2022</p>
+                        <p class="grade">Percentage: 75.4%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary School</h3>
+                        <h4>10th Standard</h4>
+                        <p class="institution">Shemford Futuristic School CBSE, Budalur, Thanjavur</p>
+                        <p class="duration">2019 - 2020</p>
+                        <p class="grade">Percentage: 88.6%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Libraries & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects & Open Source</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Car Parking Lot Detection</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">OpenCV</span>
+                    </div>
+                    <p>Implemented an OpenCV-based system to detect and predict available parking spaces using image processing techniques. Utilized edge detection, contour analysis, and background subtraction for real-time parking space identification.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Real-time Detection</span>
+                        <span><i class="fas fa-check"></i> Image Processing</span>
+                        <span><i class="fas fa-check"></i> Computer Vision</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Complaint Management System</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">PHP</span>
+                        <span class="tech-badge">MySQL</span>
+                    </div>
+                    <p>Designed a database-driven system to automate complaint registration, tracking, and resolution for better efficiency. Improved transparency and accountability by ensuring systematic complaint handling and faster issue resolution.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Database Management</span>
+                        <span><i class="fas fa-check"></i> Automation</span>
+                        <span><i class="fas fa-check"></i> Web Application</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Leaf Disease Detection using Deep Learning</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Meta Llama 4</span>
+                        <span class="tech-badge">Groq API</span>
+                        <span class="tech-badge">Streamlit</span>
+                        <span class="tech-badge">Base64</span>
+                    </div>
+                    <p>Developed a Leaf Disease Detection System utilizing a vision-language model (Meta Llama 4 Scout 17B) and the Groq API to achieve real-time, high-accuracy diagnostics. The system uses a FastAPI backend for scalable image processing and a Streamlit frontend for professional visualizations.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Identifies 500+ plant diseases and nutrient deficiencies</span>
+                        <span><i class="fas fa-check"></i> Delivers severity assessment and actionable treatment protocols</span>
+                        <span><i class="fas fa-check"></i> Achieves 89.7% accuracy with results within 24 seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Micro Certification</h3>
+                    <p>Service Now</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>MongoDB Certification</h3>
+                    <p>MongoDB</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Power BI for Beginners</h3>
+                    <p>Simpli Learn</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Introduction to Microsoft Excel</h3>
+                    <p>Coursera</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Masterclass on Become a Data Analyst</h3>
+                    <p>PWskills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:mahesh.kt2004@gmail.com">mahesh.kt2004@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <a href="tel:7339091977">+91 7339091977</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>114-E South Street, Vinnamangalam</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/mahesh-t-541290250" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mahesh T. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
